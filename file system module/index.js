@@ -1,6 +1,6 @@
 const fs = require('fs');
-//Rename File
-fs.rename('greeting.txt', 'greetingNewName.txt', (err) => {
+//Remove a |File
+fs.rm('rm.txt', (err) => {
     if(err) throw err;
-    console.log('Successfully Renamed This File');
-} )
+    console.log('/Delete the File');
+})
