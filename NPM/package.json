@@ -1,0 +1,11 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "We are Learning Node Package Management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abir",
+  "license": "ISC"
+}
