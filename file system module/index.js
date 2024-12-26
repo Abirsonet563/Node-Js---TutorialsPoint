@@ -1,6 +1,6 @@
 const fs = require('fs');
-//Write File
-fs.writeFile('greeting.txt', 'Welcome to Node |JS Part-2', (err) =>{
+//Rename File
+fs.rename('greeting.txt', 'greetingNewName.txt', (err) => {
     if(err) throw err;
-    console.log('Operation Successful');
-})
+    console.log('Successfully Renamed This File');
+} )
