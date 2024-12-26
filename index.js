@@ -1,4 +1,3 @@
-const reverseString = (string) => {
-    return string.split('').reverse('').join('');
-}
-console.log(reverseString('Abir Hasan'));
+const {reverseString} = require('./reverseString');
+
+console.log(reverseString('Abir'))
