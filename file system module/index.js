@@ -13,7 +13,13 @@ const fs = require('fs'); // File System
 // })
 
 //Removed Directories
-fs.rmdir('./myFolder', (err) => {
-    if(err) throw err;
-    console.log('Removed Directory')
+// fs.rmdir('./myFolder', (err) => {
+//     if(err) throw err;
+//     console.log('Removed Directory')
+// })
+
+//Read a File
+fs.readFile('./tutorialspoint.txt','utf-8', (err, data) => {
+  if(err) throw err;
+  console.log(data);
 })
